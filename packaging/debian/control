@@ -24,6 +24,7 @@ Maintainer: fty-service-status-systemd Developers opensource@eaton.com>
 Standards-Version: 1.0.0
 Build-Depends: debhelper (>= 9),
     cmake (>=3.13),
+    pkg-config,
     fty-service-status-dev,
     libsystemd-dev
 
